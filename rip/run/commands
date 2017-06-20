@@ -1,0 +1,1 @@
+python runILP.py  --sampleNum 5   --PowerBudget 10   --benchmarkName main --loopIndexes 1,2,3 --cpp 0 --power 1  --LUTBudget 0     --FFBudget 0         --BRAMBudget 0       --DSPBudget 0

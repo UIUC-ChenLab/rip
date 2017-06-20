@@ -1,0 +1,10 @@
+This file is redist.txt.
+
+1) The files in the directories "include", "lib", "doc", and "misc",
+if present, are allowed to be redistributed subject to the terms of
+the license found in the LICENSE.txt file.
+
+2) The files in the "examples" directory are governed by a different
+license present at the top of each file in that directory and in the
+LICENSE-EXAMPLES.txt file in the "examples" directory.
+

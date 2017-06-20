@@ -1,0 +1,198 @@
+#ifndef __PARAMS__DRAMCtrl__
+#define __PARAMS__DRAMCtrl__
+
+class DRAMCtrl;
+
+#include <cstddef>
+#include <cstddef>
+#include <cstddef>
+#include <cstddef>
+#include <cstddef>
+#include <cstddef>
+#include <cstddef>
+#include <cstddef>
+#include <cstddef>
+#include <cstddef>
+#include <cstddef>
+#include <cstddef>
+#include <cstddef>
+#include <cstddef>
+#include <cstddef>
+#include <cstddef>
+#include <cstddef>
+#include <cstddef>
+#include <cstddef>
+#include <cstddef>
+#include <cstddef>
+#include <cstddef>
+#include <cstddef>
+#include <cstddef>
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "enums/AddrMap.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "enums/MemSched.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "enums/PageManage.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+#include <cstddef>
+#include "base/types.hh"
+
+#include "params/AbstractMemory.hh"
+
+#include "enums/AddrMap.hh"
+
+#include "enums/MemSched.hh"
+
+#include "enums/PageManage.hh"
+
+struct DRAMCtrlParams
+    : public AbstractMemoryParams
+{
+    DRAMCtrl * create();
+    double IDD0;
+    double IDD02;
+    double IDD2N;
+    double IDD2N2;
+    double IDD2P0;
+    double IDD2P02;
+    double IDD2P1;
+    double IDD2P12;
+    double IDD3N;
+    double IDD3N2;
+    double IDD3P0;
+    double IDD3P02;
+    double IDD3P1;
+    double IDD3P12;
+    double IDD4R;
+    double IDD4R2;
+    double IDD4W;
+    double IDD4W2;
+    double IDD5;
+    double IDD52;
+    double IDD6;
+    double IDD62;
+    double VDD;
+    double VDD2;
+    unsigned activation_limit;
+    Enums::AddrMap addr_mapping;
+    unsigned bank_groups_per_rank;
+    unsigned banks_per_rank;
+    unsigned burst_length;
+    unsigned channels;
+    unsigned device_bus_width;
+    uint64_t device_rowbuffer_size;
+    uint64_t device_size;
+    unsigned devices_per_rank;
+    bool dll;
+    unsigned max_accesses_per_row;
+    Enums::MemSched mem_sched_policy;
+    unsigned min_writes_per_switch;
+    Enums::PageManage page_policy;
+    unsigned ranks_per_channel;
+    unsigned read_buffer_size;
+    Tick static_backend_latency;
+    Tick static_frontend_latency;
+    Tick tBURST;
+    Tick tCCD_L;
+    Tick tCK;
+    Tick tCL;
+    Tick tCS;
+    Tick tRAS;
+    Tick tRCD;
+    Tick tREFI;
+    Tick tRFC;
+    Tick tRP;
+    Tick tRRD;
+    Tick tRRD_L;
+    Tick tRTP;
+    Tick tRTW;
+    Tick tWR;
+    Tick tWTR;
+    Tick tXAW;
+    Tick tXP;
+    Tick tXPDLL;
+    Tick tXS;
+    Tick tXSDLL;
+    unsigned write_buffer_size;
+    int write_high_thresh_perc;
+    int write_low_thresh_perc;
+    unsigned int port_port_connection_count;
+};
+
+#endif // __PARAMS__DRAMCtrl__

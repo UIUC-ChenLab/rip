@@ -1,0 +1,382 @@
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled May 24 2016 23:01:47
+gem5 started Jun  7 2017 17:57:53
+gem5 executing on cad.csl.illinois.edu
+command line: /home/kemmere2/gem5/gem5-stable/build/X86/gem5.perf -d /home/kemmere2/gem5/benchmarks/generic_benchmark/ROI_0/Division_0 /home/kemmere2/gem5/gem5-stable/configs/example/se.py -c /home/kemmere2/gem5/benchmarks/generic_benchmark/pin_profile/mm.out --cpu-type=kvm --standard-switch=1 --cpu-clock=3.4GHz --caches --l2cache --fast-forward=1 --maxinsts=1 --warmup=3000000 --ROI_start=10751 --ROI_range=36711435
+
+##############Instructions: 1
+##############Instructions: 36711435
+Global frequency set at 1000000000000 ticks per second
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled May 24 2016 23:01:47
+gem5 started Jun  7 2017 17:57:53
+gem5 executing on cad.csl.illinois.edu
+command line: /home/kemmere2/gem5/gem5-stable/build/X86/gem5.perf -d /home/kemmere2/gem5/benchmarks/generic_benchmark/ROI_0/Division_255 /home/kemmere2/gem5/gem5-stable/configs/example/se.py -c /home/kemmere2/gem5/benchmarks/generic_benchmark/pin_profile/mm.out --cpu-type=kvm --standard-switch=1 --cpu-clock=3.4GHz --caches --l2cache --fast-forward=1 --maxinsts=1 --warmup=3000000 --ROI_start=9361426676 --ROI_range=36711435
+
+##############Instructions: 9358426676
+##############Instructions: 36711435
+Global frequency set at 1000000000000 ticks per second
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled May 24 2016 23:01:47
+gem5 started Jun  7 2017 17:57:53
+gem5 executing on cad.csl.illinois.edu
+command line: /home/kemmere2/gem5/gem5-stable/build/X86/gem5.perf -d /home/kemmere2/gem5/benchmarks/generic_benchmark/ROI_0/Division_511 /home/kemmere2/gem5/gem5-stable/configs/example/se.py -c /home/kemmere2/gem5/benchmarks/generic_benchmark/pin_profile/mm.out --cpu-type=kvm --standard-switch=1 --cpu-clock=3.4GHz --caches --l2cache --fast-forward=1 --maxinsts=1 --warmup=3000000 --ROI_start=18759554036 --ROI_range=36711435
+
+##############Instructions: 18756554036
+##############Instructions: 36711435
+Global frequency set at 1000000000000 ticks per second
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled May 24 2016 23:01:47
+gem5 started Jun  7 2017 17:57:53
+gem5 executing on cad.csl.illinois.edu
+command line: /home/kemmere2/gem5/gem5-stable/build/X86/gem5.perf -d /home/kemmere2/gem5/benchmarks/generic_benchmark/ROI_0/Division_127 /home/kemmere2/gem5/gem5-stable/configs/example/se.py -c /home/kemmere2/gem5/benchmarks/generic_benchmark/pin_profile/mm.out --cpu-type=kvm --standard-switch=1 --cpu-clock=3.4GHz --caches --l2cache --fast-forward=1 --maxinsts=1 --warmup=3000000 --ROI_start=4662362996 --ROI_range=36711435
+
+##############Instructions: 4659362996
+##############Instructions: 36711435
+Global frequency set at 1000000000000 ticks per second
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled May 24 2016 23:01:47
+gem5 started Jun  7 2017 17:57:53
+gem5 executing on cad.csl.illinois.edu
+command line: /home/kemmere2/gem5/gem5-stable/build/X86/gem5.perf -d /home/kemmere2/gem5/benchmarks/generic_benchmark/ROI_0/Division_767 /home/kemmere2/gem5/gem5-stable/configs/example/se.py -c /home/kemmere2/gem5/benchmarks/generic_benchmark/pin_profile/mm.out --cpu-type=kvm --standard-switch=1 --cpu-clock=3.4GHz --caches --l2cache --fast-forward=1 --maxinsts=1 --warmup=3000000 --ROI_start=28157681396 --ROI_range=36711435
+
+##############Instructions: 28154681396
+##############Instructions: 36711435
+Global frequency set at 1000000000000 ticks per second
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled May 24 2016 23:01:47
+gem5 started Jun  7 2017 17:57:53
+gem5 executing on cad.csl.illinois.edu
+command line: /home/kemmere2/gem5/gem5-stable/build/X86/gem5.perf -d /home/kemmere2/gem5/benchmarks/generic_benchmark/ROI_0/Division_1023 /home/kemmere2/gem5/gem5-stable/configs/example/se.py -c /home/kemmere2/gem5/benchmarks/generic_benchmark/pin_profile/mm.out --cpu-type=kvm --standard-switch=1 --cpu-clock=3.4GHz --caches --l2cache --fast-forward=1 --maxinsts=1 --warmup=3000000 --ROI_start=37555808756 --ROI_range=36711435
+
+##############Instructions: 37552808756
+##############Instructions: 36711435
+Global frequency set at 1000000000000 ticks per second
+Switch at instruction count:18756554036
+info: KVM: Coalesced MMIO disabled by config.
+Switch at instruction count:4659362996
+info: KVM: Coalesced MMIO disabled by config.
+info: Entering event queue @ 0.  Starting simulation...
+Switch at instruction count:9358426676
+info: KVM: Coalesced MMIO disabled by config.
+info: Entering event queue @ 0.  Starting simulation...
+Switch at instruction count:1
+info: KVM: Coalesced MMIO disabled by config.
+info: Entering event queue @ 0.  Starting simulation...
+info: Entering event queue @ 0.  Starting simulation...
+Switched CPUS @ tick 0
+switching cpus
+Switch at instruction count:10750
+info: Entering event queue @ 0.  Starting simulation...
+Switch at instruction count:28154681396
+info: KVM: Coalesced MMIO disabled by config.
+Switching CPUS @ tick 50340444
+Simulation ends instruction count:36711435
+switching cpus
+info: Entering event queue @ 50340444.  Starting simulation...
+info: Entering event queue @ 0.  Starting simulation...
+Switch at instruction count:37552808756
+info: KVM: Coalesced MMIO disabled by config.
+**** REAL SIMULATION ****
+info: Entering event queue @ 50341032.  Starting simulation...
+info: Entering event queue @ 0.  Starting simulation...
+Switched CPUS @ tick 422725254
+switching cpus
+Switch at instruction count:3000000
+info: Entering event queue @ 422725254.  Starting simulation...
+Switched CPUS @ tick 838062876
+switching cpus
+Switch at instruction count:3000000
+info: Entering event queue @ 838062876.  Starting simulation...
+Switching CPUS @ tick 10107271062
+Simulation ends instruction count:36711435
+switching cpus
+info: Entering event queue @ 10107271062.  Starting simulation...
+**** REAL SIMULATION ****
+info: Entering event queue @ 10107272826.  Starting simulation...
+Switched CPUS @ tick 618211440
+switching cpus
+Switch at instruction count:3000000
+info: Entering event queue @ 618211440.  Starting simulation...
+Switching CPUS @ tick 10521769902
+Simulation ends instruction count:36711435
+switching cpus
+info: Entering event queue @ 10521769902.  Starting simulation...
+**** REAL SIMULATION ****
+info: Entering event queue @ 10521771078.  Starting simulation...
+Switched CPUS @ tick 862196748
+switching cpus
+Switch at instruction count:3000000
+info: Entering event queue @ 862196748.  Starting simulation...
+Switching CPUS @ tick 10301945514
+Simulation ends instruction count:36711435
+switching cpus
+info: Entering event queue @ 10301945514.  Starting simulation...
+**** REAL SIMULATION ****
+info: Entering event queue @ 10301946102.  Starting simulation...
+Switched CPUS @ tick 465899448
+switching cpus
+Switch at instruction count:3000000
+info: Entering event queue @ 465899448.  Starting simulation...
+Switching CPUS @ tick 10546086054
+Simulation ends instruction count:36711435
+switching cpus
+info: Entering event queue @ 10546086054.  Starting simulation...
+**** REAL SIMULATION ****
+info: Entering event queue @ 10546087230.  Starting simulation...
+Switching CPUS @ tick 10149886068
+Simulation ends instruction count:36711435
+switching cpus
+info: Entering event queue @ 10149886068.  Starting simulation...
+**** REAL SIMULATION ****
+info: Entering event queue @ 10149887244.  Starting simulation...
+Exiting @ tick 84285097470 because a thread reached the max instruction count
+Reading GEM5 stats from: /home/kemmere2/gem5/benchmarks/generic_benchmark/ROI_0/Division_0/stats.txt
+Reading config from: /home/kemmere2/gem5/benchmarks/generic_benchmark/ROI_0/Division_0/config.json
+Reading McPAT template from: /home/kemmere2/gem5/benchmarks/generic_benchmark/my_xeon_template.xml
+***WARNING: system.cpu.fp_regfile_reads does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.workload.num_syscalls does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.icache.ReadReq_accesses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.icache.ReadReq_misses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.icache.tags.replacements does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dtb_walker_cache.tags.data_accesses does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dtb_walker_cache.no_allocate_misses does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dcache.ReadReq_accesses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dcache.WriteReq_accesses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dcache.ReadReq_misses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dcache.WriteReq_misses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dcache.tags.replacements does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.l2.ReadExReq_accesses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.l2.ReadExReq_misses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+Writing input to McPAT in: mcpat-out.xml
+Exiting @ tick 94537686852 because a thread reached the max instruction count
+Reading GEM5 stats from: /home/kemmere2/gem5/benchmarks/generic_benchmark/ROI_0/Division_511/stats.txt
+Reading config from: /home/kemmere2/gem5/benchmarks/generic_benchmark/ROI_0/Division_511/config.json
+Reading McPAT template from: /home/kemmere2/gem5/benchmarks/generic_benchmark/my_xeon_template.xml
+***WARNING: system.cpu.fp_regfile_reads does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.workload.num_syscalls does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.icache.ReadReq_accesses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.icache.ReadReq_misses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.icache.tags.replacements does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dtb_walker_cache.tags.data_accesses does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dtb_walker_cache.no_allocate_misses does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dcache.ReadReq_accesses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dcache.WriteReq_accesses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dcache.ReadReq_misses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dcache.WriteReq_misses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dcache.tags.replacements does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.l2.ReadExReq_accesses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.l2.ReadExReq_misses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+Writing input to McPAT in: mcpat-out.xml
+Exiting @ tick 94342060428 because a thread reached the max instruction count
+Reading GEM5 stats from: /home/kemmere2/gem5/benchmarks/generic_benchmark/ROI_0/Division_127/stats.txt
+Reading config from: /home/kemmere2/gem5/benchmarks/generic_benchmark/ROI_0/Division_127/config.json
+Reading McPAT template from: /home/kemmere2/gem5/benchmarks/generic_benchmark/my_xeon_template.xml
+***WARNING: system.cpu.fp_regfile_reads does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.workload.num_syscalls does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.icache.ReadReq_accesses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.icache.ReadReq_misses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.icache.tags.replacements does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dtb_walker_cache.tags.data_accesses does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dtb_walker_cache.no_allocate_misses does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dcache.ReadReq_accesses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dcache.WriteReq_accesses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dcache.ReadReq_misses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dcache.WriteReq_misses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dcache.tags.replacements does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.l2.ReadExReq_accesses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.l2.ReadExReq_misses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+Writing input to McPAT in: mcpat-out.xml
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled May 24 2016 23:01:47
+gem5 started Jun  7 2017 18:09:00
+gem5 executing on cad.csl.illinois.edu
+command line: /home/kemmere2/gem5/gem5-stable/build/X86/gem5.perf -d /home/kemmere2/gem5/benchmarks/generic_benchmark/ROI_0/Division_383 /home/kemmere2/gem5/gem5-stable/configs/example/se.py -c /home/kemmere2/gem5/benchmarks/generic_benchmark/pin_profile/mm.out --cpu-type=kvm --standard-switch=1 --cpu-clock=3.4GHz --caches --l2cache --fast-forward=1 --maxinsts=1 --warmup=3000000 --ROI_start=14060490356 --ROI_range=36711435
+
+##############Instructions: 14057490356
+##############Instructions: 36711435
+Global frequency set at 1000000000000 ticks per second
+Switch at instruction count:14057490356
+info: KVM: Coalesced MMIO disabled by config.
+info: Entering event queue @ 0.  Starting simulation...
+Switched CPUS @ tick 525143094
+switching cpus
+Switch at instruction count:3000000
+info: Entering event queue @ 525143094.  Starting simulation...
+Switching CPUS @ tick 10208979774
+Simulation ends instruction count:36711435
+switching cpus
+info: Entering event queue @ 10208979774.  Starting simulation...
+**** REAL SIMULATION ****
+info: Entering event queue @ 10208980950.  Starting simulation...
+Exiting @ tick 94780683732 because a thread reached the max instruction count
+Reading GEM5 stats from: /home/kemmere2/gem5/benchmarks/generic_benchmark/ROI_0/Division_767/stats.txt
+Reading config from: /home/kemmere2/gem5/benchmarks/generic_benchmark/ROI_0/Division_767/config.json
+Reading McPAT template from: /home/kemmere2/gem5/benchmarks/generic_benchmark/my_xeon_template.xml
+***WARNING: system.cpu.fp_regfile_reads does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.workload.num_syscalls does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.icache.ReadReq_accesses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.icache.ReadReq_misses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.icache.tags.replacements does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dtb_walker_cache.tags.data_accesses does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dtb_walker_cache.no_allocate_misses does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dcache.ReadReq_accesses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dcache.WriteReq_accesses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dcache.ReadReq_misses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dcache.WriteReq_misses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dcache.tags.replacements does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.l2.ReadExReq_accesses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.l2.ReadExReq_misses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+Writing input to McPAT in: mcpat-out.xml
+Exiting @ tick 94756806228 because a thread reached the max instruction count
+Reading GEM5 stats from: /home/kemmere2/gem5/benchmarks/generic_benchmark/ROI_0/Division_255/stats.txt
+Reading config from: /home/kemmere2/gem5/benchmarks/generic_benchmark/ROI_0/Division_255/config.json
+Reading McPAT template from: /home/kemmere2/gem5/benchmarks/generic_benchmark/my_xeon_template.xml
+***WARNING: system.cpu.fp_regfile_reads does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.workload.num_syscalls does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.icache.ReadReq_accesses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.icache.ReadReq_misses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.icache.tags.replacements does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dtb_walker_cache.tags.data_accesses does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dtb_walker_cache.no_allocate_misses does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dcache.ReadReq_accesses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dcache.WriteReq_accesses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dcache.ReadReq_misses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dcache.WriteReq_misses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dcache.tags.replacements does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.l2.ReadExReq_accesses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.l2.ReadExReq_misses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+Writing input to McPAT in: mcpat-out.xml
+Exiting @ tick 94385308710 because a thread reached the max instruction count
+Reading GEM5 stats from: /home/kemmere2/gem5/benchmarks/generic_benchmark/ROI_0/Division_1023/stats.txt
+Reading config from: /home/kemmere2/gem5/benchmarks/generic_benchmark/ROI_0/Division_1023/config.json
+Reading McPAT template from: /home/kemmere2/gem5/benchmarks/generic_benchmark/my_xeon_template.xml
+***WARNING: system.cpu.fp_regfile_reads does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.workload.num_syscalls does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.icache.ReadReq_accesses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.icache.ReadReq_misses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.icache.tags.replacements does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dtb_walker_cache.tags.data_accesses does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dtb_walker_cache.no_allocate_misses does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dcache.ReadReq_accesses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dcache.WriteReq_accesses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dcache.ReadReq_misses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dcache.WriteReq_misses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.cpu.dcache.tags.replacements does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.l2.ReadExReq_accesses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+***WARNING: system.l2.ReadExReq_misses::total does not exist in stats***
+	 Please use the right stats in your McPAT template file
+Writing input to McPAT in: mcpat-out.xml
+gem5 Simulator System.  http://gem5.org
+gem5 is copyrighted software; use the --copyright option for details.
+
+gem5 compiled May 24 2016 23:01:47
+gem5 started Jun  7 2017 18:09:54
+gem5 executing on cad.csl.illinois.edu
+command line: /home/kemmere2/gem5/gem5-stable/build/X86/gem5.perf -d /home/kemmere2/gem5/benchmarks/generic_benchmark/ROI_0/Division_639 /home/kemmere2/gem5/gem5-stable/configs/example/se.py -c /home/kemmere2/gem5/benchmarks/generic_benchmark/pin_profile/mm.out --cpu-type=kvm --standard-switch=1 --cpu-clock=3.4GHz --caches --l2cache --fast-forward=1 --maxinsts=1 --warmup=3000000 --ROI_start=23458617716 --ROI_range=36711435
+
+##############Instructions: 23455617716
+##############Instructions: 36711435
+Global frequency set at 1000000000000 ticks per second
+Switch at instruction count:23455617716
+info: KVM: Coalesced MMIO disabled by config.
+info: Entering event queue @ 0.  Starting simulation...
+Note: 0 is now to be marked as converged
+Time: 723.421640

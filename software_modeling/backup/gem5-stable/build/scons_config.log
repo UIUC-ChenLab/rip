@@ -1,0 +1,384 @@
+file /home/kemmere2/gem5/gem5-stable/SConstruct,line 877:
+	Configure(confdir = build/.scons_config)
+scons: Configure: Checking for leading underscore in global variables...
+scons: Configure: "build/.scons_config/conftest_0.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/.scons_config/conftest_0.c <-
+  |  |
+  |  |        asm(".globl _x; _x: .byte 0");
+  |  |        extern int x;
+  |  |        int main() { return x; }
+  |  |        
+  |
+scons: Configure: "build/.scons_config/conftest_0.o" is up to date.
+scons: Configure: The original builder output was:
+  |(B[m [      CC] [33m.scons_config/conftest_0[33m[1m.c[34m[1m -> [33m[1m.o(B[m
+  |
+scons: Configure: Building "build/.scons_config/conftest_0" failed in a previous run and all its sources are up to date.
+scons: Configure: The original builder output was:
+  |(B[m [    LINK] [33m[33m[1m[34m[1m -> [33m[1m.scons_config/conftest_0(B[m
+  |
+scons: Configure: (cached) no
+
+scons: Configure: Checking for C header file Python.h... 
+scons: Configure: "build/.scons_config/conftest_1.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/.scons_config/conftest_1.c <-
+  |  |
+  |  |#include <Python.h>
+  |  |
+  |  |
+  |
+scons: Configure: "build/.scons_config/conftest_1.o" is up to date.
+scons: Configure: The original builder output was:
+  |(B[m [      CC] [33m.scons_config/conftest_1[33m[1m.c[34m[1m -> [33m[1m.o(B[m
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C library python2.7... 
+scons: Configure: "build/.scons_config/conftest_2.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/.scons_config/conftest_2.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: "build/.scons_config/conftest_2.o" is up to date.
+scons: Configure: The original builder output was:
+  |(B[m [      CC] [33m.scons_config/conftest_2[33m[1m.c[34m[1m -> [33m[1m.o(B[m
+  |
+scons: Configure: "build/.scons_config/conftest_2" is up to date.
+scons: Configure: The original builder output was:
+  |(B[m [    LINK] [33m[33m[1m[34m[1m -> [33m[1m.scons_config/conftest_2(B[m
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C library pthread... 
+scons: Configure: "build/.scons_config/conftest_3.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/.scons_config/conftest_3.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: "build/.scons_config/conftest_3.o" is up to date.
+scons: Configure: The original builder output was:
+  |(B[m [      CC] [33m.scons_config/conftest_3[33m[1m.c[34m[1m -> [33m[1m.o(B[m
+  |
+scons: Configure: "build/.scons_config/conftest_3" is up to date.
+scons: Configure: The original builder output was:
+  |(B[m [    LINK] [33m[33m[1m[34m[1m -> [33m[1m.scons_config/conftest_3(B[m
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C library dl... 
+scons: Configure: "build/.scons_config/conftest_4.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/.scons_config/conftest_4.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: "build/.scons_config/conftest_4.o" is up to date.
+scons: Configure: The original builder output was:
+  |(B[m [      CC] [33m.scons_config/conftest_4[33m[1m.c[34m[1m -> [33m[1m.o(B[m
+  |
+scons: Configure: "build/.scons_config/conftest_4" is up to date.
+scons: Configure: The original builder output was:
+  |(B[m [    LINK] [33m[33m[1m[34m[1m -> [33m[1m.scons_config/conftest_4(B[m
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C library util... 
+scons: Configure: "build/.scons_config/conftest_5.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/.scons_config/conftest_5.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: "build/.scons_config/conftest_5.o" is up to date.
+scons: Configure: The original builder output was:
+  |(B[m [      CC] [33m.scons_config/conftest_5[33m[1m.c[34m[1m -> [33m[1m.o(B[m
+  |
+scons: Configure: "build/.scons_config/conftest_5" is up to date.
+scons: Configure: The original builder output was:
+  |(B[m [    LINK] [33m[33m[1m[34m[1m -> [33m[1m.scons_config/conftest_5(B[m
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C library m... 
+scons: Configure: "build/.scons_config/conftest_6.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/.scons_config/conftest_6.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: "build/.scons_config/conftest_6.o" is up to date.
+scons: Configure: The original builder output was:
+  |(B[m [      CC] [33m.scons_config/conftest_6[33m[1m.c[34m[1m -> [33m[1m.o(B[m
+  |
+scons: Configure: "build/.scons_config/conftest_6" is up to date.
+scons: Configure: The original builder output was:
+  |(B[m [    LINK] [33m[33m[1m[34m[1m -> [33m[1m.scons_config/conftest_6(B[m
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for accept(0,0,0) in C++ library None... 
+scons: Configure: "build/.scons_config/conftest_7.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |build/.scons_config/conftest_7.cpp <-
+  |  |
+  |  |
+  |  |#include "sys/socket.h"
+  |  |
+  |  |int
+  |  |main() {
+  |  |  accept(0,0,0);
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: "build/.scons_config/conftest_7.o" is up to date.
+scons: Configure: The original builder output was:
+  |(B[m [     CXX] [33m.scons_config/conftest_7[33m[1m.cpp[34m[1m -> [33m[1m.o(B[m
+  |
+scons: Configure: "build/.scons_config/conftest_7" is up to date.
+scons: Configure: The original builder output was:
+  |(B[m [    LINK] [33m[33m[1m[34m[1m -> [33m[1m.scons_config/conftest_7(B[m
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for zlibVersion() in C++ library z... 
+scons: Configure: "build/.scons_config/conftest_8.cpp" is up to date.
+scons: Configure: The original builder output was:
+  |build/.scons_config/conftest_8.cpp <-
+  |  |
+  |  |
+  |  |#include "zlib.h"
+  |  |
+  |  |int
+  |  |main() {
+  |  |  zlibVersion();
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: "build/.scons_config/conftest_8.o" is up to date.
+scons: Configure: The original builder output was:
+  |(B[m [     CXX] [33m.scons_config/conftest_8[33m[1m.cpp[34m[1m -> [33m[1m.o(B[m
+  |
+scons: Configure: "build/.scons_config/conftest_8" is up to date.
+scons: Configure: The original builder output was:
+  |(B[m [    LINK] [33m[33m[1m[34m[1m -> [33m[1m.scons_config/conftest_8(B[m
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for clock_nanosleep(0,0,NULL,NULL) in C library None... 
+scons: Configure: "build/.scons_config/conftest_9.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/.scons_config/conftest_9.c <-
+  |  |
+  |  |
+  |  |#include "time.h"
+  |  |
+  |  |int
+  |  |main() {
+  |  |  clock_nanosleep(0,0,NULL,NULL);
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: "build/.scons_config/conftest_9.o" is up to date.
+scons: Configure: The original builder output was:
+  |(B[m [      CC] [33m.scons_config/conftest_9[33m[1m.c[34m[1m -> [33m[1m.o(B[m
+  |
+scons: Configure: Building "build/.scons_config/conftest_9" failed in a previous run and all its sources are up to date.
+scons: Configure: The original builder output was:
+  |(B[m [    LINK] [33m[33m[1m[34m[1m -> [33m[1m.scons_config/conftest_9(B[m
+  |
+scons: Configure: (cached) no
+
+scons: Configure: Checking for clock_nanosleep(0,0,NULL,NULL) in C library rt... 
+scons: Configure: "build/.scons_config/conftest_10.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/.scons_config/conftest_10.c <-
+  |  |
+  |  |
+  |  |#include "time.h"
+  |  |
+  |  |int
+  |  |main() {
+  |  |  clock_nanosleep(0,0,NULL,NULL);
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: "build/.scons_config/conftest_10.o" is up to date.
+scons: Configure: The original builder output was:
+  |(B[m [      CC] [33m.scons_config/conftest_10[33m[1m.c[34m[1m -> [33m[1m.o(B[m
+  |
+scons: Configure: "build/.scons_config/conftest_10" is up to date.
+scons: Configure: The original builder output was:
+  |(B[m [    LINK] [33m[33m[1m[34m[1m -> [33m[1m.scons_config/conftest_10(B[m
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for timer_create(CLOCK_MONOTONIC, NULL, NULL) in C library None... 
+scons: Configure: "build/.scons_config/conftest_11.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/.scons_config/conftest_11.c <-
+  |  |
+  |  |
+  |  |#include "time.h"
+  |  |#include "signal.h"
+  |  |
+  |  |int
+  |  |main() {
+  |  |  timer_create(CLOCK_MONOTONIC, NULL, NULL);
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: "build/.scons_config/conftest_11.o" is up to date.
+scons: Configure: The original builder output was:
+  |(B[m [      CC] [33m.scons_config/conftest_11[33m[1m.c[34m[1m -> [33m[1m.o(B[m
+  |
+scons: Configure: "build/.scons_config/conftest_11" is up to date.
+scons: Configure: The original builder output was:
+  |(B[m [    LINK] [33m[33m[1m[34m[1m -> [33m[1m.scons_config/conftest_11(B[m
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C library tcmalloc... 
+scons: Configure: "build/.scons_config/conftest_12.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/.scons_config/conftest_12.c <-
+  |  |
+  |  |
+  |  |
+  |  |int
+  |  |main() {
+  |  |  
+  |  |return 0;
+  |  |}
+  |  |
+  |
+scons: Configure: "build/.scons_config/conftest_12.o" is up to date.
+scons: Configure: The original builder output was:
+  |(B[m [      CC] [33m.scons_config/conftest_12[33m[1m.c[34m[1m -> [33m[1m.o(B[m
+  |
+scons: Configure: "build/.scons_config/conftest_12" is up to date.
+scons: Configure: The original builder output was:
+  |(B[m [    LINK] [33m[33m[1m[34m[1m -> [33m[1m.scons_config/conftest_12(B[m
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C header file fenv.h... 
+scons: Configure: "build/.scons_config/conftest_13.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/.scons_config/conftest_13.c <-
+  |  |
+  |  |#include <fenv.h>
+  |  |
+  |  |
+  |
+scons: Configure: "build/.scons_config/conftest_13.o" is up to date.
+scons: Configure: The original builder output was:
+  |(B[m [      CC] [33m.scons_config/conftest_13[33m[1m.c[34m[1m -> [33m[1m.o(B[m
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for C header file linux/kvm.h... 
+scons: Configure: "build/.scons_config/conftest_14.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/.scons_config/conftest_14.c <-
+  |  |
+  |  |#include <linux/kvm.h>
+  |  |
+  |  |
+  |
+scons: Configure: "build/.scons_config/conftest_14.o" is up to date.
+scons: Configure: The original builder output was:
+  |(B[m [      CC] [33m.scons_config/conftest_14[33m[1m.c[34m[1m -> [33m[1m.o(B[m
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking size of struct kvm_xsave ... 
+scons: Configure: "build/.scons_config/conftest_15.c" is up to date.
+scons: Configure: The original builder output was:
+  |build/.scons_config/conftest_15.c <-
+  |  |#include <linux/kvm.h>
+  |  |#include <stdlib.h>
+  |  |#include <stdio.h>
+  |  |int main() {
+  |  |    printf("%d", (int)sizeof(struct kvm_xsave));
+  |  |    return 0;
+  |  |}
+  |  |    
+  |
+scons: Configure: "build/.scons_config/conftest_15.o" is up to date.
+scons: Configure: The original builder output was:
+  |(B[m [      CC] [33m.scons_config/conftest_15[33m[1m.c[34m[1m -> [33m[1m.o(B[m
+  |
+scons: Configure: "build/.scons_config/conftest_15" is up to date.
+scons: Configure: The original builder output was:
+  |(B[m [    LINK] [33m[33m[1m[34m[1m -> [33m[1m.scons_config/conftest_15(B[m
+  |
+scons: Configure: "build/.scons_config/conftest_15.out" is up to date.
+scons: Configure: The original builder output was:
+  |build/.scons_config/conftest_15 > build/.scons_config/conftest_15.out
+  |
+scons: Configure: (cached) yes
+
+scons: Configure: Checking for member exclude_host in struct perf_event_attr...
+scons: Configure: "build/.scons_config/conftest_16.cc" is up to date.
+scons: Configure: The original builder output was:
+  |build/.scons_config/conftest_16.cc <-
+  |  |
+  |  |#include <linux/perf_event.h>
+  |  |int main(){
+  |  |  struct perf_event_attr test;
+  |  |  (void)test.exclude_host;
+  |  |  return 0;
+  |  |};
+  |  |
+  |
+scons: Configure: "build/.scons_config/conftest_16.o" is up to date.
+scons: Configure: The original builder output was:
+  |(B[m [     CXX] [33m.scons_config/conftest_16[33m[1m.cc[34m[1m -> [33m[1m.o(B[m
+  |
+scons: Configure: (cached) yes
+
+

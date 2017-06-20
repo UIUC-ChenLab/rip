@@ -1,0 +1,8 @@
+  4004a0:	e9 b5 00 00 00       	jmpq   40055a <ROILabel0+0xb5>
+00000000004004a5 <ROILabel0>:
+  4004ac:	e9 93 00 00 00       	jmpq   400544 <ROILabel0+0x9f>
+  4004b8:	eb 74                	jmp    40052e <ROILabel0+0x89>
+  40053a:	0f 85 7a ff ff ff    	jne    4004ba <ROILabel0+0x15>
+  400550:	0f 85 5b ff ff ff    	jne    4004b1 <ROILabel0+0xc>
+  400566:	0f 85 39 ff ff ff    	jne    4004a5 <ROILabel0>
+000000000040056c <ROILabel1>:

@@ -1,0 +1,3 @@
+python generate_input_sample_space.py --iterNum 3 --maxTileSizePerLoop 128,128,128 --minTileSizePerLoop 32,32,32 --exponent_tile 2 --exponent_unroll 2 --iterBoundary 1024,1024,1024 --functionName mm
+python run.py --iterNum 3 --startLineNum 0 --endLineNum 650 --functionName mm
+python generate_theory_sample_space.py --iterNum 3 --maxTileSizePerLoop 128,128,128 --minTileSizePerLoop 32,32,32 --iterBoundary 1024,1024,1024
