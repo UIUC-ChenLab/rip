@@ -3,7 +3,7 @@
 
 ###Introduction
 ####RIP: Randomized Iterative ILP
-RIP is a framework to enable hardware acceleration of performance-critical parts of an application, by ad- dressing the problem of hardware/software partitioning under power and area constraints to minimize the overall program latency. Experimental results demonstrate the capability of our approach to consider com- plex designs and yet output near-optimal partitioning decision. 
+RIP is a framework to enable hardware acceleration of performance-critical parts of an application, by addressing the problem of hardware/software partitioning under power and area constraints to minimize the overall program latency. Experimental results demonstrate the capability of our approach to consider complex designs and yet produce optimal or near-optimal partitioning decisions. 
 
 ###Installation
 

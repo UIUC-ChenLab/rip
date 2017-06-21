@@ -22,6 +22,6 @@ When referencing this application in a publication, please cite whichever paper(
 
 [2] W. Zuo, W. Kemmerer, J. B. Lim, L.-N. Pochet, A. Ayupoy, T. Kim, K. Han, and D. Chen, “A polyhedral-based SystemC modeling and generation framework for effective low-power design space exploration,” Proceedings of IEEE/ACM International Conference on Computer-Aided Design, November 2015.
 
-[3] W. Zuo, L.-N. Pochet, A. Ayupov, T. Kim, C.-W. Lin, S. Shiraishi, D. Chen, “Accurate High-level Modeling and Automated Hardware/Software Co-design for Effective SoC Design Space Exploration" Proceedings of IEEE/ACM Design Automation Conference, June 2017.
+[3] W. Zuo, L.-N. Pochet, A. Ayupov, T. Kim, C.-W. Lin, S. Shiraishi, and D. Chen, “Accurate High-level Modeling and Automated Hardware/Software Co-design for Effective SoC Design Space Exploration" Proceedings of IEEE/ACM Design Automation Conference, June 2017.
 
 

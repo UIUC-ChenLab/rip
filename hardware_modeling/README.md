@@ -5,7 +5,7 @@
 1. [PolyOpt-0.3.0](http://web.cs.ucla.edu/~pouchet/software/polyopthls/download/polyopt-0.3.0.tar.gz)
     Just download, do not install yet.
 
-    It includes the polyhedral transformation tool targeting HLS and hardware generation.PolyOpt requires the installation of ROSE and BOOST. A simpler way to install the these two tools is to install [CDSC Mapper](http://cadlab.cs.ucla.edu/mapper/).
+    It includes the polyhedral transformation tool targeting HLS and hardware generation. PolyOpt requires the installation of ROSE and BOOST. A simpler way to install these two tools is to install [CDSC Mapper](http://cadlab.cs.ucla.edu/mapper/).
 
 
 ### Installation the hardware modeling tool
