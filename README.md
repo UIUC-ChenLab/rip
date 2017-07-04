@@ -1,11 +1,10 @@
-This project contains three inter-related software packages, located in three folders.
-
-* Hardware modeling: the hardware modeling and SystemC generation package for a given loop region when it is mapped to hardware.
-* Software modeling: the software modeling package for a given piece of code when it is run on an embeded CPU. 
-* RIP:	Iterative ILP method for automated hardware/softare partitioning using the first two packages as building blocks.
-
-The detailed description and instruction are included in each folder.
-
-contact:
-weizuo(at)illinois(dot)edu
-dchen(at)illinois(dot)edu
+Copyright (c) <2017>
+\<University of Illinois at Urbana-Champaign\>
+All rights reserved.Developed by:
+\<http://dchen.ece.illinois.edu/\>
+\<University of Illinois at Urbana-Champaign\>This open source project contains three inter-related software packages, located in three folders, for the task of hardware/software partitioning targeting either sophisticated SoC designs or computing on heterogeneous systems. It is mainly developed by Wei Zuo and Warren Kemmerer of University of Illinois in Dr. Deming Chen's research lab. The three packages are:
+•	Hardware modeling and design space exploration. This package takes a given region of C or C++ code and generates corresponding SystemC code for mapping to hardware for either ASIC or FPGA acceleration. The package goes through hardware modeling, design space exploration, and SystemC generation for the optimized hardware implementation. It offers three orders of magnitude faster exploration time than exhaustive search based methods with only < 6% error for latency and power estimation (compared to the gate-level models).
+•	Software modeling. This software modeling package takes a given piece of C/C++ code and models its performance and energy consumption when it is run on an embedded CPU. It is, on average, ~320x faster than Gem5 and with only < 4% error for latency and energy estimation.
+•	RIP. This is the package that uses an Iterative ILP method for automated hardware/software partitioning using the first two packages as building blocks. It is 54x faster than a simulated annealing-based method with better quality of results. It offers optimal partitioning results for those benchmarks whose optimal partitioning results are known.The detailed description and instruction are included in each folder. The three corresponding publications related to these packages are:[1] W. Zuo, W. Kemmerer, J. B. Lim, L.-N. Pochet, A. Ayupoy, T. Kim, K. Han, and D. Chen, “A polyhedral-based SystemC modeling and generation framework for effective low-power design space exploration,” Proceedings of IEEE/ACM International Conference on Computer-Aided Design, November 2015. (Best Paper Award)
+[2] W. Kemmerer, W. Zuo, and D. Chen, "Parallel Code-Specific CPU Simulation with Dynamic Phase Convergence Modeling for HW/SW Co-Design", Proceedings of IEEE/ACM International Conference on Computer-Aided Design, November 2016.
+[3] W. Zuo, L.-N. Pochet, A. Ayupov, T. Kim, C.-W. Lin, S. Shiraishi, and D. Chen, “Accurate High-level Modeling and Automated Hardware/Software Co-design for Effective SoC Design Space Exploration" Proceedings of IEEE/ACM Design Automation Conference, June 2017.For comments and bug reports, please contact:weizuo(at)illinois(dot)edu; dchen(at)illinois(dot)edu
