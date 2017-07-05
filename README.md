@@ -1,7 +1,7 @@
 Copyright (c) <2017>
 \<University of Illinois at Urbana-Champaign>
 All rights reserved.Developed by:
-\<http://dchen.ece.illinois.edu>
+\<http://dchen.ece.illinois.edu >
 \<University of Illinois at Urbana-Champaign>This open source project contains three inter-related software packages, located in three folders, for the task of hardware/software partitioning targeting either sophisticated SoC designs or computing on heterogeneous systems. It is mainly developed by Wei Zuo and Warren Kemmerer of University of Illinois in Dr. Deming Chen's research lab. The three packages are:
 •	Hardware modeling and design space exploration. This package takes a given region of C or C++ code and generates corresponding SystemC code for mapping to hardware for either ASIC or FPGA acceleration. The package goes through hardware modeling, design space exploration, and SystemC generation for the optimized hardware implementation. It offers three orders of magnitude faster exploration time than exhaustive search based methods with only < 6% error for latency and power estimation (compared to the gate-level models).
 •	Software modeling. This software modeling package takes a given piece of C/C++ code and models its performance and energy consumption when it is run on an embedded CPU. It is, on average, ~320x faster than Gem5 and with only < 4% error for latency and energy estimation.
