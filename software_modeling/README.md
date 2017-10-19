@@ -1,6 +1,6 @@
 ###Publication
 "Parallel Code-specific CPU Simulation with Dynamic Phase Convergence Modeling for HW/SW Co-design", 
-Warren Kemmerer, Wei Zuo, and Deming Chen. (ICCAD '16) [link](http://delivery.acm.org/10.1145/2970000/2967063/a79-kemmerer.pdf)
+Warren Kemmerer, Wei Zuo, and Deming Chen. (ICCAD '16) [link](https://dl.acm.org/citation.cfm?id=2967063)
 
 ###Introduction
 Our tool is an automated framework that: 1. Enables high speed code-specific CPU profiling support
