@@ -20,29 +20,30 @@ After the LLVM is installed, we can integrate RIP to LLVM
 
 1. Copy the ./install/SoC folder to <llvm_src_dir>/lib
 	
-	```
+```
  cd <llvm_src_dir>/lib
  cp ./install/SoC .
 ```
 2. Add the subdirctory to CMakeLists.txt. Put the following line to the file.
 
-	```
+```
 add_subdirectory(SoC)
 ```
 
 3. Replace the following files with the files in our folder
 
-	```
+```
 cp ./install/clang/include/clang/Basic/Attr.td <llvm_src_dir>/tools/clang/include/clang/Basic/
 cp ./install/clang/include/clang/Basic/DiagnositcParseKinds.td <llvm_src_dir>/tools/clang/include/clang/Basic/
-cp ./clang/lib/CodeGen/CGLoopInfo.cpp <llvm_src_dir>/tools/clang/include/clang/Basic/lib/CodeGen
-cp ./clang/lib/CodeGen/CGLoopInfo.h <llvm_src_dir>/tools/clang/include/clang/Basic/lib/CodeGen
+cp ./clang/lib/CodeGen/CGLoopInfo.cpp <llvm_src_dir>/tools/clang/lib/CodeGen
+cp ./clang/lib/CodeGen/CGLoopInfo.h <llvm_src_dir>/tools/clang/lib/CodeGen
 cp ./clang/lib/Parse/ParsePragma.cpp <llvm_src_dir>/tool/clang/lib/Parse/
 cp ./clang/lib/Sema/SemaAttr.cpp <llvm_src_dir>/tool/clang/lib/Sema
+
 ```
 3. rebuild LLVM tool. 
 
-	```
+```
 cd <llvm_build_dir>
 make
 ```
