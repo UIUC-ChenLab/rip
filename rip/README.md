@@ -85,7 +85,7 @@ We provided  an running example in folder ./run/main.c
 
 3. Sorting the frontier to generate an order pareto-curve list
 
-	```
+```
 python sortFrontier.py --fileNames=frontier_1.txt,frontier_2.txt,...
 ```
 4. run the RIP solver
