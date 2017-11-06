@@ -35,10 +35,10 @@ add_subdirectory(SoC)
 ```
 cp ./install/clang/include/clang/Basic/Attr.td <llvm_src_dir>/tools/clang/include/clang/Basic/
 cp ./install/clang/include/clang/Basic/DiagnositcParseKinds.td <llvm_src_dir>/tools/clang/include/clang/Basic/
-cp ./clang/lib/CodeGen/CGLoopInfo.cpp <llvm_src_dir>/tools/clang/lib/CodeGen
-cp ./clang/lib/CodeGen/CGLoopInfo.h <llvm_src_dir>/tools/clang/lib/CodeGen
-cp ./clang/lib/Parse/ParsePragma.cpp <llvm_src_dir>/tool/clang/lib/Parse/
-cp ./clang/lib/Sema/SemaAttr.cpp <llvm_src_dir>/tool/clang/lib/Sema
+cp ./install/clang/lib/CodeGen/CGLoopInfo.cpp <llvm_src_dir>/tools/clang/lib/CodeGen
+cp ./install/clang/lib/CodeGen/CGLoopInfo.h <llvm_src_dir>/tools/clang/lib/CodeGen
+cp ./install/clang/lib/Parse/ParsePragma.cpp <llvm_src_dir>/tool/clang/lib/Parse/
+cp ./install/clang/lib/Sema/SemaAttr.cpp <llvm_src_dir>/tool/clang/lib/Sema
 
 ```
 3. rebuild LLVM tool. 
