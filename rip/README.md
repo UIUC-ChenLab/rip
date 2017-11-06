@@ -9,7 +9,7 @@ RIP is a framework to enable hardware acceleration of performance-critical parts
 
 This framework requires 
 
-1. LLVM 3.8.1. The famework is compatable with LLVM 3.8.1, but not tested for other versions.
+1. LLVM 3.9.0. The famework is compatable with LLVM 3.9.0, but not tested for other versions.
 
 2. The hardware modeling and software modeling framework installed, which is provided in this project.
 
