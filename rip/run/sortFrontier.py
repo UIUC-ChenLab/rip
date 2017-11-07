@@ -20,7 +20,7 @@ for fname in opts.fileNameList:
                 print ll[5]
                 ll = map(float, ll)
                 #ll[4] = ll[4] / 2 
-                ll[5] = ll[5] * 1000000000
+                ll[5] = ll[5] 
                 #print ll
                 linesList.append(ll);
 
