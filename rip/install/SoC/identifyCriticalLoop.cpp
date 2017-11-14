@@ -586,8 +586,8 @@ void taskGraph::generateILP(){
 	//first, generate the sv
 	f.open ("myfile.txt");
 	f1.open("nodeInfo.txt");
-	if(f == NULL) {perror("Error opening file"); return;}
-	if(f1 == NULL) {perror("Error opening file"); return;}
+	if(!f) {perror("Error opening file"); return;}
+	if(!f1) {perror("Error opening file"); return;}
 	rev_dfs(sink_, f, f1);
 	clear_status();
 	f.close();
