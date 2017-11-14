@@ -39,7 +39,7 @@ cp ./install/clang/lib/CodeGen/CGLoopInfo.cpp <llvm_src_dir>/tools/clang/lib/Cod
 cp ./install/clang/lib/CodeGen/CGLoopInfo.h <llvm_src_dir>/tools/clang/lib/CodeGen
 cp ./install/clang/lib/Parse/ParsePragma.cpp <llvm_src_dir>/tool/clang/lib/Parse/
 cp ./install/clang/lib/Sema/SemaAttr.cpp <llvm_src_dir>/tool/clang/lib/Sema
-
+cp ./install/clang/lib/Sema/SemaStmtAttr.cpp <llvm_src_dir>/tool/clang/lib/Sema
 ```
 3. rebuild LLVM tool. 
 
