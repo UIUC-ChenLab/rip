@@ -49,7 +49,7 @@ make
 ```
 
 
-###Running the tool
+### Running the tool
 
 We provided  an running example in folder ./run/main.c
 
@@ -103,7 +103,7 @@ python runILP.py  		[options] [values]
 	--cpp:				whether the testing file is a cpp file (1) or c file (0).
 ```
 
-###Contact
+### Contact
 weizuo (at) illinois (dot) edu
 
 
