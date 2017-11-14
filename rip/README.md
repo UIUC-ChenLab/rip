@@ -1,15 +1,15 @@
-###Publication
+### Publication
 "Accurate High-level Modeling and Automated Hardware/Software Co-design for Effective SoC Design Space Exploration" Wei Zuo, Louis-Noel Pouchet, Andrey Ayupov, Taemin Kim, Chung-Wei Lin, Shinichi Shiraishi, Deming Chen. (DAC'17)
 
-###Introduction
-####RIP: Randomized Iterative ILP
+### Introduction
+#### RIP: Randomized Iterative ILP
 RIP is a framework to enable hardware acceleration of performance-critical parts of an application, by addressing the problem of hardware/software partitioning under power and area constraints to minimize the overall program latency. Experimental results demonstrate the capability of our approach to consider complex designs and yet produce optimal or near-optimal partitioning decisions. 
 
-###Installation
+### Installation
 
 This framework requires 
 
-1. LLVM 3.9.0. The famework is compatable with LLVM 3.9.0, but not tested for other versions.
+1. LLVM 3.9.0 (and Clang 3.9.0). The famework is compatable with LLVM 3.9.0, but not tested for other versions.
 
 2. The hardware modeling and software modeling framework installed, which is provided in this project.
 
