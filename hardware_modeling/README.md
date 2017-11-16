@@ -1,7 +1,7 @@
-###Publication
+### Publication
  A Polyhedral-based SystemC Modeling and Generation Framework for Effective Low-power Design Space Exploration. Wei Zuo, Warren Kemmerer, Jong Bin Lim, Louis-Noël Pouchet, Andrey Ayupov, Taemin Kim, Kyungtae Han, and Deming Chen. (ICCAD '15). [link](http://dl.acm.org/citation.cfm?id=2840870) 
 
-###Prerequisit tool
+### Prerequisit tool
 1. [PolyOpt-0.3.0](http://web.cs.ucla.edu/~pouchet/software/polyopthls/download/polyopt-0.3.0.tar.gz)
     Just download, do not install yet.
 
