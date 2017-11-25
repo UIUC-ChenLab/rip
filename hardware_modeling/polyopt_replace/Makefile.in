@@ -388,7 +388,7 @@ pkginclude_HEADERS = \
 	include/polyopt/ScopExtractor.hpp		\
 	include/polyopt/ScopExtractorVisitor.hpp	\
 	include/polyopt/ScopParser.hpp			\
-	include/PolyOpt/helper.hpp
+	include/polyopt/helper.hpp
 
 
 lib_LTLIBRARIES = libpolyopt.la
