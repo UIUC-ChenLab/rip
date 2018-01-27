@@ -47,26 +47,25 @@ There are three global variables.
         --iterNum: the number of the largest loop iteration in your design. 
         --iterBoundary: a list of the max number of each iterator. The length of the list should equal to iterNum. For example:
         
-        ```
         for(int i = 0; i < N; i++)
 				for(int j=0; j<N; j++)
 					stmt1;
-		```
+
 		then iterNum = 2, iterBoundary=[N, N];
 		
-		--maxTileSizePerLoop: the max tile size the user would like to explore for each iteration. This is also a list.
+	--maxTileSizePerLoop: the max tile size the user would like to explore for each iteration. This is also a list.
+	
+		If maxTileSizePerLoop = 128, then the script won’t generate tile size bigger then 128.
 		
-			If maxTileSizePerLoop = 128, then the script won’t generate tile size bigger then 128.
-			
-		--minTileSizePerLoop: the min tile size the user would like to explore for each iteration
+	--minTileSizePerLoop: the min tile size the user would like to explore for each iteration
+	
+	--exponent_tile: the exponent of tile size increase for each iteration level
+	
+		If exponent_tile =2. Then if the the current tile size is n, then next tile size generated would be n^2.
 		
-		--exponent_tile: the exponent of tile size increase for each iteration level
-		
-			If exponent_tile =2. Then if the the current tile size is n, then next tile size generated would be n^2.
-			
-		--exponent_unroll: The exponent of unroll factor increase for each iteration level
-		
-		--functionName: the name of the function the user is exploring.
+	--exponent_unroll: The exponent of unroll factor increase for each iteration level
+	
+	--functionName: the name of the function the user is exploring.
 
 4. Generate SystemC:
 
@@ -80,13 +79,13 @@ There are three global variables.
 
 	       PolyRose   [options] [values] //comments (should be removed when run the command)
 	
-	       --polyopt-pluto-tile   				//refer to PolyOpt manual
+	   --polyopt-pluto-tile   				//refer to PolyOpt manual
            --polyopt-pluto-fuse-nofuse 			//refer to PolyOpt manual
            --polyopt-HLS 				//refer to PolyOpt manual
            --systemc-target-func=functionName 	//the top-level module in your design
-	       --systemc-depth=N 				//the depth from top you want to explore parallelsim. If N = 0, then no parallelism is explored. 
-	       --systemc-preprocess 				//to indicate this is a preprocess pass, it will generate some information for later runs. Only need to run once for one design.
-	       --systemc-HLS loop1.c			//to generate the HLS version of the systemC code. (Currently this flag is still under development).
+	   --systemc-depth=N 				//the depth from top you want to explore parallelsim. If N = 0, then no parallelism is explored. 
+	   --systemc-preprocess 				//to indicate this is a preprocess pass, it will generate some information for later runs. Only need to run once for one design.
+	   --systemc-HLS loop1.c			//to generate the HLS version of the systemC code. (Currently this flag is still under development).
 	       
 	       InputFile.c	
 
@@ -94,10 +93,10 @@ There are three global variables.
     
          (d): Compile the c code.
         
-      g++ -O3 -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -lsystemc -lm 
-	-fno-deduce-init-list rose_InputFile.c  -std=c++0x -o rose_InputFile.out
-	
-	     (e): run the executable: ./rose_InputFile.out.
+      ```
+      g++ -O3 -I. -I$SYSTEMC_HOME/include -L. -L$SYSTEMC_HOME/lib-linux64 -lsystemc -lm -fno-deduce-init-list rose_InputFile.c  -std=c++0x -o rose_InputFile.out
+      ```
+	 (e): run the executable: ./rose_InputFile.out.
 	   
 
     (2) The script to run multiple runs. The following scripts read the input data from input_data.csv and generate the result data in data_points.csv.
