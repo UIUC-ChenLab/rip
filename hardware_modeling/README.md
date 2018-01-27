@@ -44,6 +44,7 @@ There are three global variables.
     This file generates the input sample points for SystemC simulation, write it to a input_points.csv
     
     Options:
+
         --iterNum: the number of the largest loop iteration in your design. 
         --iterBoundary: a list of the max number of each iterator. The length of the list should equal to iterNum. For example:
         
@@ -122,8 +123,8 @@ There are three global variables.
         
                 --iterNum: The number of max iteration levels of the loops. (Similar to the same option in generate_input_sample_space.py )
                 --iterBoundary: a list of the max number of each iterator. The length of the list should equal to iterNum. For example:
-		        --maxTileSizePerLoop: the max tile size the user would like to explore for each iteration. This is also a list.	
-		        --minTileSizePerLoop: the min tile size the user would like to explore for each iteration
+	        --maxTileSizePerLoop: the max tile size the user would like to explore for each iteration. This is also a list.	
+	        --minTileSizePerLoop: the min tile size the user would like to explore for each iteration
 		        
 		(2) customize training.m. The only parameter need to tune is the "degenerate_level" (refer to the comment in the script).
 		
