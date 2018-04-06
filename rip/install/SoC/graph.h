@@ -203,6 +203,7 @@ public:
 	void addDummySink();
 	Vertex* getSink(){return sink_;}
 	void rev_dfs(Vertex* V, std::ofstream &f, std::ofstream &f1);
+	void dfsToFindLeaves(Vertex* V);
 	void generateILP();
 	void calCriticalLength();
 	bool predContainCritical(Vertex *V);

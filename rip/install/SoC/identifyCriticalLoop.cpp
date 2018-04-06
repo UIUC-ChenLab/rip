@@ -554,6 +554,7 @@ bool IdentifyCriticalLoop::buildTaskGraph(Function &F){
 	TG.clear_status();
 	errs() << "6: there are " << TG.numberofNodes() << "\n";
 	TG.addDummySink();
+	TG.clear_status();
 	TG.generateILP();
 	errs() << "7: there are " << TG.numberofNodes() << "\n";
 	TG.calCriticalLength();
@@ -565,14 +566,30 @@ bool IdentifyCriticalLoop::buildTaskGraph(Function &F){
 //to add a dummy node as sink, this is used for computing the shortest critical path.
 void taskGraph::addDummySink(){
 	//errs() << "number of leaves is " << Leaves.size() << "\n";
+	Leaves.clear();
+	dfsToFindLeaves(root_);
 	VerticesItr itrs = Leaves.begin();
 	VerticesItr itre = Leaves.end();
+	std::cout << "leave size " << Leaves.size() << '\n';
 	Vertex* sink = new Vertex(nullptr, 0, 0, 0, 0, 0, 0, 0, 0, 0,curNodeId++, true, false, false, nullptr);
 	vertices_.insert(sink);
 	for(; itrs != itre; ++itrs){
 		addEdge(*itrs, sink);
 	}
 	sink_ = sink;
+}
+
+void taskGraph::dfsToFindLeaves(Vertex* V){
+  if(V->get_status() == VISITED) return;
+  V->set_status(VISITED);
+  auto succs = V->get_succs();
+  if(succs->empty()){
+    Leaves.insert(V);
+  }
+  VerticesItr sitrs = succs->begin();
+  for(; sitrs != succs->end(); ++sitrs){
+    dfsToFindLeaves(*sitrs);
+  }
 }
 
 
@@ -586,8 +603,8 @@ void taskGraph::generateILP(){
 	//first, generate the sv
 	f.open ("myfile.txt");
 	f1.open("nodeInfo.txt");
-	if(!f) {perror("Error opening file"); return;}
-	if(!f1) {perror("Error opening file"); return;}
+	if(f == NULL) {perror("Error opening file"); return;}
+	if(f1 == NULL) {perror("Error opening file"); return;}
 	rev_dfs(sink_, f, f1);
 	clear_status();
 	f.close();
@@ -761,8 +778,10 @@ bool taskGraph::simplifyTaskGraph(Vertex* V){
 	if(succs.size() == 1){
 		Vertex* succNode = *(succs.begin());
 		Vertices preds = succNode->get_preds_copies();
-		if(preds.size() == 1){
+		if(preds.size() == 1 && (*preds.begin())->get_critical() == false && (succNode->get_critical()==false)){
+			std::cout << "eff_lat_sw of from Node " << V->get_effLatSw() << " eff_latSw from to Node " << succNode->get_effLatSw() << '\n';
 			mergeTwoNodes(V, succNode);
+			std::cout << "after merging, eff_latSw from to Node " << succNode->get_effLatSw() << '\n';
 		}
 		simplifyTaskGraph(succNode);
 		return false;
