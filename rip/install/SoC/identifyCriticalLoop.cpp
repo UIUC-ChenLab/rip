@@ -779,9 +779,9 @@ bool taskGraph::simplifyTaskGraph(Vertex* V){
 		Vertex* succNode = *(succs.begin());
 		Vertices preds = succNode->get_preds_copies();
 		if(preds.size() == 1 && (*preds.begin())->get_critical() == false && (succNode->get_critical()==false)){
-			std::cout << "eff_lat_sw of from Node " << V->get_effLatSw() << " eff_latSw from to Node " << succNode->get_effLatSw() << '\n';
+			//std::cout << "eff_lat_sw of from Node " << V->get_effLatSw() << " eff_latSw from to Node " << succNode->get_effLatSw() << '\n';
 			mergeTwoNodes(V, succNode);
-			std::cout << "after merging, eff_latSw from to Node " << succNode->get_effLatSw() << '\n';
+			//std::cout << "after merging, eff_latSw from to Node " << succNode->get_effLatSw() << '\n';
 		}
 		simplifyTaskGraph(succNode);
 		return false;
@@ -903,7 +903,8 @@ Vertex* taskGraph::allocateVertex(Function &F, BasicBlock *BB){
 	int LUT = 0;
 	int FF = 0;
 	int inLineNum = 0;
-	getAttrfromBB(BB, &latencyHw, &latencySw, &powerHw, &powerSw, &BRAM, &DSP, &FF, &LUT, &inLineNum);
+	int LoopIter = 0;
+	getAttrfromBB(BB, &latencyHw, &latencySw, &powerHw, &powerSw, &BRAM, &DSP, &FF, &LUT, &inLineNum, &LoopIter);
 	double bfreq = (double)(BFI.getBlockFreq(BB).getFrequency());
 	unsigned loopDepth = LI_->getLoopDepth(BB);
 	if(loopDepth == 0) bfreq = bfreq;
@@ -921,8 +922,10 @@ Vertex* taskGraph::allocateVertex(Function &F, BasicBlock *BB){
 	//else{
 	 // l1 = getLoopFor(getLoopFor(BB)->
 	//}
-	bfreq = bfreq / base_freq;
-//	errs() << "bfreq of " << BB->getName() << " is " << bfreq << "\n";
+	if(LoopIter)
+	  bfreq = LoopIter;
+	else 
+	  bfreq = bfreq / base_freq;
 	double eff_latHw = latencyHw * bfreq;
 	double eff_latSw = latencySw * bfreq;
 	Vertex *node = new Vertex(BB, eff_latHw, eff_latSw, powerHw, powerSw, BRAM, DSP, FF, LUT, inLineNum, curNodeId++, false, false, false, nullptr );
@@ -932,7 +935,7 @@ Vertex* taskGraph::allocateVertex(Function &F, BasicBlock *BB){
 }
 
 //check whether there is store lat, power, area information, given a basic block, traverse the instructions 
-void taskGraph::getAttrfromBB(BasicBlock * BB, double *latencyHw, double *latencySw, double *powerHw, double *powerSw, int *BRAM, int *DSP, int *FF, int *LUT, int *inLineNum){
+void taskGraph::getAttrfromBB(BasicBlock * BB, double *latencyHw, double *latencySw, double *powerHw, double *powerSw, int *BRAM, int *DSP, int *FF, int *LUT, int *inLineNum, int *LoopIter){
 	for(Instruction &I : BB->getInstList()){
 		//first, whether it is a store instruction
 		if(isa<StoreInst>(I)){   
@@ -947,6 +950,7 @@ void taskGraph::getAttrfromBB(BasicBlock * BB, double *latencyHw, double *latenc
 			bool IsDSP = SR.startswith(StringRef("DSP"));
 			bool IsFF = SR.startswith(StringRef("FF"));
 			bool IsLUT = SR.startswith(StringRef("LUT"));
+			bool IsLoopIter = SR.startswith(StringRef("LoopIter"));
 			if(IsInLineNum || IsBRAM || IsDSP || IsFF || IsLUT){
 				ConstantInt* INTC = dyn_cast<ConstantInt>(I.getOperand(0));
 				assert(INTC && "no data assigned to inLineNum");
@@ -966,6 +970,12 @@ void taskGraph::getAttrfromBB(BasicBlock * BB, double *latencyHw, double *latenc
 				else if(IsLatSw) *latencySw = numberFPC;
 				else if(IsPowSw) *powerSw = numberFPC;
 				else *powerHw = numberFPC;
+			}
+			if(IsLoopIter){
+			  ConstantInt* INTC = dyn_cast<ConstantInt>(I.getOperand(0));
+			  assert(INTC && "no data assigned to inLineNum");
+			  int numIntC = INTC->getSExtValue();
+			  *LoopIter = numIntC;
 			}
 		}
 	}

@@ -199,7 +199,7 @@ public:
 	bool simplifyTaskGraph(Vertex* V);
 	bool bbExist(llvm::BasicBlock* BB){return (bbVerTab.find(BB) != bbVerTab.end());}
 	bool vertexExist(Vertex* V){return (vertices_.find(V) != vertices_.end());}
-	void getAttrfromBB(llvm::BasicBlock * BB, double *latencyHw, double *latencySw, double *powerHw, double *powerSw, int *BRAM, int *DSP, int *FF, int *LUT, int *inLineNum);
+	void getAttrfromBB(llvm::BasicBlock * BB, double *latencyHw, double *latencySw, double *powerHw, double *powerSw, int *BRAM, int *DSP, int *FF, int *LUT, int *inLineNum, int *LoopIter);
 	void addDummySink();
 	Vertex* getSink(){return sink_;}
 	void rev_dfs(Vertex* V, std::ofstream &f, std::ofstream &f1);
